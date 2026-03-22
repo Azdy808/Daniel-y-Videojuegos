@@ -1,0 +1,805 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(42, 153, 243);
+   
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+    
+    
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    cursor: pointer;
+
+}
+.logo h1{
+    font-size: 240%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header a:hover{
+   color: rgb(3, 0, 206);
+}
+article{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+    display: grid;
+    
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0rem 0.25rem 0.625rem #000000;
+    border-radius: 10px;
+    padding: 2%;
+  
+}
+article h2{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0%;
+
+}
+article p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.lineadecoracion hr{
+    margin-top: 0%;
+    border-style: solid;
+    height: 20%;
+    background-color: rgb(42, 153, 243);
+    width: 30%;
+    
+    margin: 2% 0;
+}
+.nuevosproductos{
+    font-size: 200%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.tarjetas{display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    padding-bottom:3rem ;}
+.ps3 img{
+    width:70% ;
+    height: 70%;
+}
+.tarjeta1{
+    align-items: center;
+    text-align: center;
+    width: 24.5vw;
+    height: 36vw;
+    background-color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow:  0rem 0.25rem 0.625rem #000000;
+    border-radius: 5%;
+    
+}
+.tarjeta1 h2{
+    color: rgb(42, 153, 243);
+   
+}
+.tarjeta1 h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.letrachiquita{
+    font-size: 0.875rem;
+
+}
+.boton1{
+background-color:rgb(42, 153, 243);; 
+width:35rem ;
+height: 3.125rem;
+align-items: center;
+text-align: center;
+cursor: pointer;
+
+
+}
+.boton1 a{
+    margin-top: 0.625rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display:block;
+    text-align:center;
+    padding:0.9375rem;
+ 
+}
+.tarjeta2{
+    align-items: center;
+    text-align: center;
+    width: 24.5vw;
+    height: 36vw;
+    background-color:rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0px 4px 10px #000000;
+    border-radius: 5%;
+    }
+    .ns img{
+      width: 22vw ;  
+    }
+.tarjeta2 h2{
+    color: rgb(42, 153, 243);
+   
+}
+.tarjeta2 h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.letrachiquita{
+    font-size: 0.875rem;
+
+}
+.boton2{
+background-color:rgb(42, 153, 243);; 
+width:35rem ;
+height: 3.125rem;
+align-items: center;
+text-align: center;
+cursor: pointer;
+
+
+}
+.boton2 a{
+    margin-top: 0.625rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display:block;
+    text-align:center;
+    padding:0.9375rem;
+ 
+}
+   
+.tarjeta3{
+    align-items: center;
+    text-align: center;
+    width: 24.5vw;
+    height: 36vw;
+    background-color:rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0px 4px 10px #000000;
+    border-radius: 5%;
+    }
+    .xboxss img{
+      width: 16.3vw ;  
+    }
+.tarjeta3 h2{
+    color: rgb(42, 153, 243);
+   
+}
+.tarjeta3 h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.letrachiquita{
+    font-size: 0.875rem;
+
+}
+.boton3{
+background-color:rgb(42, 153, 243);; 
+width:35rem ;
+height: 3.125rem;
+align-items: center;
+text-align: center;
+cursor: pointer;
+
+
+}
+.boton3 a{
+    margin-top: 0.625rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display:block;
+    text-align:center;
+    padding:0.9375rem;
+ 
+}
+   .tarjeta1 .boton1:hover{
+background:#0230ff;
+}
+.tarjeta2 .boton2:hover{
+background:#0230ff;
+}
+.tarjeta3 .boton3:hover{
+background:#0230ff;
+}
+
+.tarjeta1:has(.boton1:hover)  h2{
+color:#0230ff;
+}
+.tarjeta2:has(.boton2:hover)  h2{
+color:#0230ff;
+}
+.tarjeta3:has(.boton3:hover)  h2{
+color:#0230ff;
+}
+.footer-container {
+  background-color: #1a1d20; 
+  color: #adb5bd; 
+  padding: 4rem 2rem 2rem;
+  font-family: sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 150px;
+  margin-bottom: 2rem;
+}
+
+.footer-section h4, .footer-newsletter h4 {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+  color: #6c757d;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #ffffff;
+}
+
+
+.footer-newsletter {
+  flex: 2;
+  min-width: 300px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.subscribe-form input {
+  flex-grow: 1;
+  padding: 0.6rem;
+  background-color: transparent;
+  border: 1px solid #495057;
+  border-radius: 4px;
+  color: white;
+}
+
+.subscribe-form button {
+  padding: 0.6rem 1.2rem;
+  background-color: #0d6efd; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 2rem auto 0;
+  padding-top: 2rem;
+  border-top: 1px solid #495057;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons a {
+  margin-left: 1rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.Consolas{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    margin-bottom: 0%;
+}
+.rayaconsolas hr{
+    margin-top: 0%;
+    border: none;
+    border-style: solid;
+    height: 20%;
+    background-color:rgb(42, 153, 243); 
+    width: 14%;
+    margin: 2% 0;
+    border-color:rgb(42, 153, 243) ;
+}
+.tarjeta4{
+    align-items: center;
+    text-align: center;
+    width: 24.5vw;
+    height: 36vw;
+    background-color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow:  0rem 0.25rem 0.625rem #000000;
+    border-radius: 5%;
+    
+}
+.tarjeta4 h2{
+    color: rgb(42, 153, 243);
+   
+}
+.tarjeta4 h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.boton4{
+background-color:rgb(42, 153, 243);; 
+width:35rem ;
+height: 3.125rem;
+align-items: center;
+text-align: center;
+cursor: pointer;
+
+
+}
+.boton4 a{
+    margin-top: 0.625rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display:block;
+    text-align:center;
+    padding:0.9375rem;
+ 
+}
+.ndsi img{
+      width: 16.5vw ;  
+}
+
+.tarjeta5{
+    align-items: center;
+    text-align: center;
+    width: 24.5vw;
+    height: 36vw;
+    background-color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow:  0rem 0.25rem 0.625rem #000000;
+    border-radius: 5%;
+    
+}
+.tarjeta5 h2{
+    color: rgb(42, 153, 243);
+   
+}
+.tarjeta5 h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.boton5{
+background-color:rgb(42, 153, 243);; 
+width:35rem ;
+height: 3.125rem;
+align-items: center;
+text-align: center;
+cursor: pointer;
+
+
+}
+.boton5 a{
+    margin-top: 0.625rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display:block;
+    text-align:center;
+    padding:0.9375rem;
+ 
+}
+.segaG img{
+      width: 20vw ; 
+      height: 18vw; 
+    }
+.tarjeta6{
+    align-items: center;
+    text-align: center;
+    width: 24.5vw;
+    height: 36vw;
+    background-color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow:  0rem 0.25rem 0.625rem #000000;
+    border-radius: 5%;
+    
+}
+.tarjeta6 h2{
+    color: rgb(42, 153, 243);
+   
+}
+.tarjeta6 h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.boton6{
+background-color:rgb(42, 153, 243);; 
+width:35rem;
+height: 3.125rem;
+align-items: center;
+text-align: center;
+cursor: pointer;
+
+
+}
+.boton6 a{
+    margin-top: 0.625rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display:block;
+    text-align:center;
+    padding:0.9375rem;
+ 
+}
+.supern img{
+      width: 20.5vw ;
+      height: 18vw;  
+    }
+.tarjeta7{
+    align-items: center;
+    text-align: center;
+    width: 24.5vw;
+    height: 36vw;
+    background-color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow:  0rem 0.25rem 0.625rem #000000;
+    border-radius: 5%;
+    
+}
+.tarjeta7 h2{
+    color: rgb(42, 153, 243);
+   
+}
+.tarjeta7 h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.boton7{
+background-color:rgb(42, 153, 243);; 
+width:35rem ;
+height: 3.125rem;
+align-items: center;
+text-align: center;
+cursor: pointer;
+
+
+}
+.boton7 a{
+    margin-top: 0.625rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display:block;
+    text-align:center;
+    padding:0.9375rem;
+ 
+}
+.n64 img{
+      width: 22vw ;  
+    }
+ .tarjeta8{
+    align-items: center;
+    text-align: center;
+    width: 24.5vw;
+    height: 36vw;
+    background-color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow:  0rem 0.25rem 0.625rem #000000;
+    border-radius: 5%;
+    
+}
+.tarjeta8 h2{
+    color: rgb(42, 153, 243);
+   
+}
+.tarjeta8 h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.boton8{
+background-color:rgb(42, 153, 243);; 
+width:35rem ;
+height: 3.125rem;
+align-items: center;
+text-align: center;
+cursor: pointer;
+
+
+}
+.boton8 a{
+    margin-top: 0.625rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display:block;
+    text-align:center;
+    padding:0.9375rem;
+ 
+}
+.xboxsx img{
+      width: 16vw ;  
+    }
+.tarjeta9{
+    align-items: center;
+    text-align: center;
+    width: 24.5vw;
+    height: 36vw;
+    background-color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow:  0rem 0.25rem 0.625rem #000000;
+    border-radius: 5%;
+    
+}
+.tarjeta9 h2{
+    color: rgb(42, 153, 243);
+   
+}
+.tarjeta9 h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.boton9{
+background-color:rgb(42, 153, 243);; 
+width:35rem ;
+height: 3.125rem;
+align-items: center;
+text-align: center;
+cursor: pointer;
+
+
+}
+.boton9 a{
+    margin-top: 0.625rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display:block;
+    text-align:center;
+    padding:0.9375rem;
+ 
+}
+.ps5 img{
+      width: 14.6 vw ;  
+    }     
+.jvps4 img{
+      width: 15vw ;  
+    }     
+.jvns img{
+    width: 10.5vw;
+}
+.jvxb360 img{
+    width: 17.5vw;
+
+}
+.Juegos{
+    font-size: 200%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.jvps2 img{
+    
+    width: 15.3vw;
+
+}
+.mvc2xbx img{
+    
+    width: 11.1vw;
+
+}
+.mp4ns img{
+    
+    width: 10.1vw;
+
+}
+.psmt img{
+    
+    width: 5.6vw;
+
+}
+.plza img{
+   width: 10.5vw; 
+}
+.plza1 img{
+   width: 11.3vw; 
+}
+.fkv img{
+   width: 18.3vw; 
+}
+.tg img{
+   width: 15.8vw; 
+}
+.fst img{
+    width: 15.8vw;
+}
+.otros{
+    font-size: 250%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cvx img{
+    width: 17vw;
+}
+.tablet img{
+    width: 16.6vw;
+}
+.mitfig img{
+    width: 7vw;
+}
+
+.cm img{
+    width: 17.5vw;
+}
+.apm img{
+    width: 15.9vw;
+}
+.fv img{
+  width: 24vw;  
+}
+.contacto{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contacto h2{
+    margin-bottom: 10px;
+}
+
+.contacto hr{
+    width: 100px;
+    height: 4px;
+    background: #2f86d6;
+    border: none;
+    margin: 10px auto 20px;
+}
+
+.contacto p{
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* FORMULARIO */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+}
+
+button{
+    background: #2f86d6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #1f5fa5;
+}
+.tarjeta4 .boton4:hover{
+background:#0230ff;
+}
+.tarjeta5 .boton5:hover{
+background:#0230ff;
+}
+.tarjeta6 .boton6:hover{
+background:#0230ff;}
+.tarjeta7 .boton7:hover{
+background:#0230ff;
+}
+.tarjeta8 .boton8:hover{
+background:#0230ff;
+}
+.tarjeta9 .boton9:hover{
+background:#0230ff;
+}
+
+.tarjeta4:has(.boton4:hover)  h2{
+color:#0230ff;
+}
+.tarjeta5:has(.boton5:hover)  h2{
+color:#0230ff;
+}
+.tarjeta6:has(.boton6:hover)  h2{
+color:#0230ff;
+}
+
+
+.tarjeta7:has(.boton7:hover)  h2{
+color:#0230ff;
+}
+.tarjeta8:has(.boton8:hover)  h2{
+color:#0230ff;
+}
+.tarjeta9:has(.boton9:hover)  h2{
+color:#0230ff;
+}
+.sucursales{
+    margin-top: 40px;
+}
+
+.sucursales h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2f86d6;
+}
+
+/* GRID */
+.grid-sucursales{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* TARJETAS */
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card h4{
+    margin-bottom: 10px;
+}
+
+.card a{
+    text-decoration: none;
+    color: #2f86d6;
+    font-weight: bold;
+}
+
+
+     
+    
+
+
+     
